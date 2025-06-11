@@ -4,11 +4,17 @@
  * and open the template in the editor.
  */
 package latihan3;
-
-/**
- *
- * @author rohid
- */
+// NAMA : MUHAMMAD ROHID
+//NPM : 2310010347
+// KELAS : 4C Reguler Banjarbaru
 public class Rumus {
+    int sisi, panjang, lebar, hasil;
     
+    public void hitungLuasPersegi(){
+        hasil = sisi * sisi; 
+    }
+    
+    public void hitungLuasPersegiPanjang(){
+        hasil = panjang * lebar;
+    }
 }
